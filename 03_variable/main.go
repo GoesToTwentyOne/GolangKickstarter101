@@ -36,5 +36,10 @@ func main() {
 	//constant
 	const Name = "This is me and This is my sister "
 	fmt.Printf("%v \n", Name)
+	fmt.Printf("\n \n \n")
+
+	// multiple variable declaration
+	Num, Result, MyNameIs, Love := 20, 5.0, "Nihad Hossain", true
+	fmt.Printf("\n %v \n %.2f \n %v \n %v \n", Num, Result, MyNameIs, Love)
 
 }
