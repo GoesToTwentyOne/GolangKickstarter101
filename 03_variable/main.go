@@ -18,7 +18,7 @@ func main() {
 	y := true
 	z := "Zoo"
 	fmt.Printf("%v %T \n", w, w)
-	fmt.Printf("%v %f \n", x, x)
+	fmt.Printf("%v %T \n", x, x)
 	fmt.Printf("%v %T \n", y, y)
 	fmt.Printf("%v %T \n", z, z)
 
@@ -32,5 +32,9 @@ func main() {
 
 	j := 40.3688 // after . two number print
 	fmt.Printf("%.2f", j)
+	fmt.Printf("\n \n \n")
+	//constant
+	const Name = "This is me and This is my sister "
+	fmt.Printf("%v \n", Name)
 
 }
