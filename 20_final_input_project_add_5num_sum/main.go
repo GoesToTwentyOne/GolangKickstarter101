@@ -29,6 +29,6 @@ func main() {
 		//fmt.Println(sum)
 
 	}
-	fmt.Printf("add 5 value and result = %v \n", sum)
+	fmt.Printf("add %v value and result = %v \n", checkconv, sum)
 
 }
