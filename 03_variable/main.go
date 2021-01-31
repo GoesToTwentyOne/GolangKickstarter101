@@ -3,6 +3,16 @@ package main
 import "fmt"
 
 func main() {
+	var name string //single variable declare
+	name = "Nihad"  //value assign or initialization
+	fmt.Println(name)
+	var name1 string = "Nihad Hossain" // at on time single variable declare & value assign or initialization
+	fmt.Println(name1)
+	var num1, num2, num3 int = 4, 6, 8 // multiple variable declare and value assign
+	fmt.Println(num1, num2, num3)
+	result := 5.00 // shorthand variable declaration
+	fmt.Println(result)
+
 	//When we doesn't assign an value that time all value is 0
 	var a int
 	var Myname string
