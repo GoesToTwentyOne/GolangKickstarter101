@@ -13,6 +13,7 @@ func main() {
 
 	var x [5]int64
 	for i := 0; i < len(x); i++ {
+		// input take
 		fmt.Printf("Enter your value array[%v]:", i)
 		arrayInput, _ := input.ReadString('\n')
 		arrayInputconv, _ := strconv.ParseInt(strings.TrimSpace(arrayInput), 10, 64)

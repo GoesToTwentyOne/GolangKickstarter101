@@ -18,6 +18,7 @@ func main() {
 	var i int
 	var sum int64 = 0
 	for i = 0; i < len(x); i++ {
+		//take input
 		fmt.Printf("Enter your array[%v] :", i)
 		arrayinput, _ := input.ReadString('\n')
 		arrayinputconv, _ := strconv.ParseInt(strings.TrimSpace(arrayinput), 10, 64)
