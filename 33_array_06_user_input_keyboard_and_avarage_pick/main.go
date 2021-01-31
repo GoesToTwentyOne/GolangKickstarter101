@@ -24,6 +24,7 @@ func main() {
 		sum = sum + x[i]
 
 	}
+	// print avarage
 	fmt.Printf("avarage : %v", sum/5)
 
 }
