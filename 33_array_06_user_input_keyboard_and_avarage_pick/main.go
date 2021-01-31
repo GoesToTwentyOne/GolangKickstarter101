@@ -19,6 +19,7 @@ func main() {
 		fmt.Printf("Enter your array[%v] :", i)
 		arrayinput, _ := input.ReadString('\n')
 		arrayinputconv, _ := strconv.ParseInt(strings.TrimSpace(arrayinput), 10, 64)
+		//array element add
 		x[i] = arrayinputconv
 		sum = sum + x[i]
 
