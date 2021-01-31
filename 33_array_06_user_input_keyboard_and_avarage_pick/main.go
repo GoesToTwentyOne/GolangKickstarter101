@@ -10,10 +10,6 @@ import (
 
 func main() {
 	input := bufio.NewReader(os.Stdin)
-	// fmt.Printf("Enter your limit value to get avarage :")
-	// arraylimit, _ := input.ReadString('\n')
-	// arraylimitconv, _ := strconv.ParseInt(strings.TrimSpace(arraylimit), 10, 64)
-
 	//take type as error remove
 	var x [5]int64
 	var i int
