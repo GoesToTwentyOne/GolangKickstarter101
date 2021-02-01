@@ -10,6 +10,7 @@ import (
 
 func main() {
 	input := bufio.NewReader(os.Stdin)
+
 	//take type as error remove
 	var x [5]int64
 	var i int
