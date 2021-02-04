@@ -11,8 +11,10 @@ func main() {
 	hitt[2008] = "The Dark Knight"
 	hitt[2019] = "1917"
 	hitt[1980] = "The Shining"
+	//default delete keyword
 	delete(hitt, 1950)
 	fmt.Println(hitt)
+	//another for loop
 	for k, v := range hitt {
 		fmt.Printf("This is hit year %v and name of %v \n\n", k, v)
 	}

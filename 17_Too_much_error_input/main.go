@@ -6,6 +6,6 @@ func main() {
 	var name string = "Nihad"
 	fmt.Scan(&name)
 	a, _ := fmt.Println(name)
-	fmt.Println(a)
+	fmt.Print(a)
 
 }
