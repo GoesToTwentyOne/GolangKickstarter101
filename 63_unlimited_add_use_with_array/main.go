@@ -13,7 +13,7 @@ func main() {
 	fmt.Printf("Enter your  value How many value add and want to avg?example:10,20 etc :\n")
 	arraylimitinput, _ := input.ReadString('\n')
 	arraylimitinputconv, _ := strconv.ParseInt(strings.TrimSpace(arraylimitinput), 10, 64)
-	var x [arraylimitinputconv]int64
+	x := make([]int64, arraylimitinputconv)
 	//try to constant but I am stuck now
 	var i int
 	var sum int64 = 0
