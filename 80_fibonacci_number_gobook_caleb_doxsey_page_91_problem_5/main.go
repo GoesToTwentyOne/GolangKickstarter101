@@ -12,5 +12,6 @@ func fib(n int) int {
 	} else if n == 1 {
 		return 1
 	}
+	fmt.Println(fib(n-1) + fib(n-2))
 	return fib(n-1) + fib(n-2)
 }
