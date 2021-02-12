@@ -2,12 +2,15 @@ package main
 
 import "fmt"
 
+//main part
 func main() {
 	s := studentResult{"Md.Nihad Hossain", 85, 90, 99, 99, 87}
 	//fmt.Println(s)
 	fmt.Println(calculatorResult(s))
 
 }
+
+//structure part
 
 type studentResult struct {
 	Name          string
@@ -17,6 +20,8 @@ type studentResult struct {
 	ScienceNo     int
 	AgrecaltureNo int
 }
+
+//function part
 
 func calculatorResult(s studentResult) (string, float64) {
 
