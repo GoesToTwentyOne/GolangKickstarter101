@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	//closure syntax
-	multiplication := func(x :=make([]int)) int {
+	multiplication := func(x []int) int {
 		sum := 0
 		for _, v := range x {
 			sum += v

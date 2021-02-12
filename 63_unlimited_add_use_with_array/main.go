@@ -14,7 +14,7 @@ func main() {
 	arraylimitinput, _ := input.ReadString('\n')
 	arraylimitinputconv, _ := strconv.ParseInt(strings.TrimSpace(arraylimitinput), 10, 64)
 	x := make([]int64, arraylimitinputconv)
-	//try to constant but I am stuck now
+	//try to constant but I am solve now
 	var i int
 	var sum int64 = 0
 	for i = 0; i < len(x); i++ {
