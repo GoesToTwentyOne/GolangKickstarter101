@@ -8,6 +8,7 @@ import (
 func main() {
 	c := circle{0, 0, 58}
 	fmt.Println(c)
+	//mehtod call
 	fmt.Println(c.area())
 	//fmt.Println(circlearea(&c))
 	fmt.Println(c.area())
