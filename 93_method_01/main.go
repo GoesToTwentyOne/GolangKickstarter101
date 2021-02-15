@@ -4,6 +4,7 @@ import "fmt"
 
 func main() {
 	r := rectangle{5, 10, 20, 30}
+	//method call here
 	fmt.Println(r.area())
 
 }
