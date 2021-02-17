@@ -3,22 +3,33 @@ package main
 import "fmt"
 
 func main() {
-	// p := person{"Nihad Hossain"}
-	// fmt.Println(p)
-	// fmt.Println()
-	a := new(android)
-	a.talk()
+	p1 := publisher{
+		Name:        "English Applied",
+		Place:       "India,Mumbai",
+		Established: 1990,
+	}
+	fmt.Printf("%+v publisher \n", p1)
+	b1 := book{
+		publisher: publisher{
+			Name:        "Invincible",
+			Place:       "India,Mumbai",
+			Established: 1990,
+		},
+		BookName: "Be a network marketing millionaire",
+	}
+	fmt.Printf("%+v Book \n", b1)
 
 }
 
-type person struct {
-	Name string
-}
-type android struct {
-	person
-	model string
+type publisher struct {
+	Name        string
+	Place       string
+	Established int
 }
 
-func (p *person) talk() {
-	fmt.Println(p.Name)
+//embeded type means OOP inharitance
+
+type book struct {
+	publisher
+	BookName string
 }
