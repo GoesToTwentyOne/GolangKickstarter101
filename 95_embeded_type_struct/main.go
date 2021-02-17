@@ -15,9 +15,13 @@ func main() {
 			Place:       "India,Mumbai",
 			Established: 1990,
 		},
+		Place:    "Bangladesh",
 		BookName: "Be a network marketing millionaire",
 	}
 	fmt.Printf("%+v Book \n", b1)
+	//specific call
+	fmt.Println(b1.publisher.Place, b1.BookName)
+	fmt.Println(p1.Name, p1.Place)
 
 }
 
@@ -31,5 +35,6 @@ type publisher struct {
 
 type book struct {
 	publisher
+	Place    string
 	BookName string
 }
