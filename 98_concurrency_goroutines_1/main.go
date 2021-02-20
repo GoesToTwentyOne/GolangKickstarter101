@@ -3,8 +3,9 @@ package main
 import "fmt"
 
 func main() {
+	//book practice
 
-	f(0)
+	go f(0)
 	var input string
 	fmt.Scanln(&input)
 
