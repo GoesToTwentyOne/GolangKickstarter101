@@ -4,6 +4,7 @@ import "fmt"
 
 func main() {
 	fmt.Println()
+	//main animal
 	a := animal{
 		AnimalType: "domestic ",
 		Name:       "My animal",
@@ -21,6 +22,7 @@ func main() {
 		},
 		leg: 4,
 	}
+	//hen
 	h := hen{
 		animal: animal{
 			AnimalType:     "Domestic",
