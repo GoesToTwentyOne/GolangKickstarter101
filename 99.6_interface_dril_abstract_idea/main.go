@@ -4,7 +4,9 @@ import "fmt"
 
 func main() {
 	var s writeMessage
-	s.Name = "Rahim"
+	s.Name = "Nihad"
+	s.To = "Rowjatul Jannat Neha"
+
 	s.send()
 
 }
@@ -17,9 +19,11 @@ type userMessage interface {
 }
 type writeMessage struct {
 	Name string
+	To   string
 }
 
 func (s writeMessage) send() {
 	fmt.Println("Hi ! I am  ", s.Name)
+	fmt.Println("Send to ", s.To)
 
 }
