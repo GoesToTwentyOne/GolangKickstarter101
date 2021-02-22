@@ -13,7 +13,7 @@ func main() {
 }
 
 //Abstrction is the process of hiding the implementation details and showing only functionality to the users like sendmessage
-//Atm both,Mobile call function etc
+//Atm booth,Mobile call function etc
 
 type userMessage interface {
 	send()
