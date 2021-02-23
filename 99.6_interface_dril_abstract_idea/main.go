@@ -3,12 +3,17 @@ package main
 import "fmt"
 
 func main() {
-	var s writeMessage
-	s.Name = "Nihad"
+	var s, d writeMessage
+	s.Name = "Rowjatul Jannat Neha"
 	s.Message = "Hello How are you?"
-	s.To = "Rowjatul Jannat Neha"
+	s.To = "Nihad"
+	d.Name = "Neha"
+	d.Message = "You are small baby"
+	d.To = "Nihad Hossain"
+	info(s)
+	info(d)
 
-	s.send()
+	// s.send()
 
 }
 
@@ -29,4 +34,8 @@ func (s writeMessage) send() {
 	fmt.Println("Message ", s.Message)
 	fmt.Println("Send to ", s.To)
 
+}
+func info(u userMessage) {
+	fmt.Println(u)
+	u.send()
 }

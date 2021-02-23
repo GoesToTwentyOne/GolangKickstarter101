@@ -10,7 +10,6 @@ func main() {
 	it.GraphicsCard = 500
 	it.SystemUnit = 8000
 	it.Itspace()
-
 }
 
 type itShop interface {
