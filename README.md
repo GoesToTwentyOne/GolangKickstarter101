@@ -51,6 +51,3 @@ Learning is a collaborative effort. Outside of this repository, I actively parti
 
 Thank you for considering my profile. I'm excited about the opportunity to collaborate and contribute to your GoLang projects, leveraging the skills I've honed through this comprehensive repository.
 
-Sincerely,
-
-[Your Name]
